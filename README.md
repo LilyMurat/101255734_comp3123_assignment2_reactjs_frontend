@@ -1,4 +1,4 @@
-# FUll Stack Assignment 2 --> Create Employee List
+# Full Stack Assignment 2 --> Create Employee List
 
 # Getting Started with Create React App
 
