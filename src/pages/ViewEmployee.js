@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from "react"; 
+import React, { useState, useEffect } from React; 
 import { Link, useParams } from "react-router-dom"; 
-import axios from "axios"; 
+import axios from 'axios'; 
  
 const ViewEmployee = () => { 
   const [employee, setEmployee] = useState({ 

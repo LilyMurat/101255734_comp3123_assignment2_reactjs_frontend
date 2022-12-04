@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from "react"; 
-import axios from "axios"; 
+import React, { useState, useEffect } from React; 
+import axios from 'axios'; 
 import {Link, useHistory, useParams } from "react-router-dom"; 
 
 const UpdateEmployee = () => { 

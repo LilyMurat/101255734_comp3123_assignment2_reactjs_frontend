@@ -1,8 +1,7 @@
-import React, { useState } from React;
+import React, { useState, useEffect } from React;
 import axios from 'axios';
 import { useHistory, Link} from "react-router-dom";
 import { Link } from "react-router-dom";
-import { useEffect } from 'react';
 
 const EmployeeList =()=>{
     const [employees, setEmployee] = useState([]);
@@ -29,7 +28,6 @@ const EmployeeList =()=>{
             loademployees();
         }
      };
-
      return(
         <div className="container py-4">
             <div className="py-4">

@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-import { Switch } from 'react-native';
 import "../node_modules/bootstrap/dist/css/bootstrap.css";
 import EmployeeList from "./pages/EmployeeList";
 import AddEmployee from "./pages/AddEmployee";
@@ -11,7 +10,7 @@ import{
   BrowserRouter as Router,
   Route,
   Switch,
-} from "react-router-dom"
+} from "react-router-dom";
 
 function App(props) {
   return (
