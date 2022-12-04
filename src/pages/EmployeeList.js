@@ -52,7 +52,7 @@ const EmployeeList =()=>{
                             <th scope="row">{index + 1}</th> 
                             <td >{employee.FirstName}</td> 
                             <td >{employee.LastName}</td> 
-                            <td >{employee.email}</td> 
+                            <td >{employee.emailId}</td> 
                             <td> 
                             <Link className="btn btn-primary mr-2" style = {{marginRight : 10}} 
                             to={`/view/${employee._id}`}> 
